@@ -3,15 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage - Boris Nielsen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+        
+    <link rel="stylesheet" href="./src/styles.css">    
+    <script src="./src/sript.js" defer></script>
+<title>Homepage - Boris Nielsen</title>
 </head>
 <body>
-    <nav></nav>
+    <div class="top_div" id="top"></div>
+    <nav class="nav">
+        <ul class="nav_list">
+            <li>
+                <a class="sectionLink" href="#top">About</a>
+            </li>
+            <li>
+                <a class="sectionLink" href="#section1">Work</a>
+            </li>
+            <li>
+                <a class="sectionLink" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
     <main>
-        <header></header>
-        <section></section>
-        <aside></aside>
+        <div class="header_wrapper" id="header">
+        <header class="header_content">
+            <img src="./src/imgs/IMG_9014 2.JPG" alt="a middle aged developer on a parking lot" srcset="" id="portrait">
+            <div class="header_wrapper">
+                <h1 class="header_1">Boris Nielsen</h1>
+                <p class="bio" id="bio">
+                    Boris Nielsen is a selftaught developer from Berlin. Coding along with the Odin Project since 2022.
+                    He is fluent in PHP, Javascript and HTML / CSS and knows how to handle webpack and Jest tests.
+                    He is currently working as a freelance programmer doing html email stuff, PHP things and wordpress maintaining.
+                    He is also a musician playing doublebass and piano and teaching.
+                </p>
+            </div>
+        </header>
+        </div>
+  
+        <section id="section1">
+            <div class="img_grid">
+                <a href="https://boriskarl.github.io/Battleship/"><img src="./src/imgs/Bildschirmfoto 2024-04-03 um 11.34.37.png" alt="battleship screenshot"></a>
+                <img src="./src/imgs/Bildschirmfoto 2024-04-03 um 11.54.33.png" alt="weather app screenshot">
+                <img src="./src/imgs/Bildschirmfoto 2024-04-03 um 11.56.07.png" alt="library screenshot">
+                <img src="./src/imgs/Bildschirmfoto 2024-04-03 um 11.56.29.png" alt="">
+                <img src="./src/imgs/Bildschirmfoto 2024-04-03 um 11.56.53.png" alt="">
+                <img src="./src/imgs/Bildschirmfoto 2024-04-03 um 11.57.14.png" alt="">
+                <img src="./src/imgs/Bildschirmfoto 2024-04-03 um 11.57.42.png" alt="">
+                <img src="./src/imgs/Bildschirmfoto 2024-04-03 um 11.58.13.png" alt="">
+                <img src="./src/imgs/Bildschirmfoto 2024-04-03 um 11.58.41.png" alt="">
+            </div>
+        </section>
+        <aside>
+            <div id=""side_menu>
+                <ul class="nav_list">
+            <li>
+                <a class="sectionLink" href="#top">About</a>
+            </li>
+            <li>
+                <a class="sectionLink" href="#section1">Work</a>
+            </li>
+            <li>
+                <a class="sectionLink" href="#contact">Contact</a>
+            </li>
+        </ul>
+            </div>
+            </aside>
     </main>
-    <footer></footer>
+    <footer id="contact">FOOTER
+        <div class="icons">
+            <a href="https://github.com/BorisKarl"><i class="devicon-github-original"></i></a>
+            <a href="https://linkedin.com"><i class="devicon-linkedin-plain"></i></a>
+            <a href="https://borisnielsen.com"><i class="devicon-php-plain colored"></i></a>
+        </div>
+    </footer>
 </body>
 </html>
