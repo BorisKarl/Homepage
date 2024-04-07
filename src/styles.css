@@ -64,6 +64,19 @@ a {
     line-height: 2;
 }
 
+.client_list {
+    font-size: 1.5rem;
+    margin: 2%;
+    line-height: 1.5;
+}
+
+.client_list li {
+     list-style-type: none;
+}
+
+.client_list a {
+        color: white;
+}
 
 a:hover {
     color: black;
