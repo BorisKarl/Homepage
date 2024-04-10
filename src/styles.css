@@ -215,11 +215,19 @@ footer {
     position: relative;
     width: 40%;
     margin-left: 40%;
-    bottom: 50%;
+    bottom: 30%;
 }
 
 #footer_pic {
-    transform: translateY(-20px) rotate(-1deg);
+    transition: 1000ms;
+}
+
+.initial {
+    transform: rotate(-7deg);
+}
+
+.move {
+    transform: rotate(360deg);
 }
 
 @media screen and (max-width: 600px) {
@@ -309,6 +317,10 @@ footer {
 
 .footer_right {
     display: none;
+}
+
+.footer_left {
+    padding: 1%;
 }
 
 .icons {
