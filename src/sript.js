@@ -15,7 +15,9 @@ links.forEach((link) => {
 })
 
 // rotate pic
+/* 
 const pic = document.getElementById("footer_pic");
 pic.addEventListener("mouseover", () => {
     pic.classList.toggle("move");
 })
+*/
